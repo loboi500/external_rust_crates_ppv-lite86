@@ -1,21 +1,3 @@
-[package]
-name = "ppv-lite86"
-version = "0.2.10"
-authors = ["The CryptoCorrosion Contributors"]
-edition = "2018"
-license = "MIT/Apache-2.0"
-description = "Implementation of the crypto-simd API for x86"
-repository = "https://github.com/cryptocorrosion/cryptocorrosion"
-keywords = ["crypto", "simd", "x86"]
-categories = ["cryptography", "no-std"]
-
-[dependencies]
-
-[badges]
-travis-ci = { repository = "cryptocorrosion/cryptocorrosion" }
-
-[features]
-default = ["std"]
-std = []
-simd = [] # deprecated
-no_simd = [] # for weird platforms like "x86_64 without SSE2"
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c01019c91ded25c48199cb9d31e1128fdd8868f1f7f2d09a024a217f479aea6
+size 558
